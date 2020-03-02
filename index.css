@@ -60,23 +60,24 @@ body {
 	margin: 8px;
 }
 
+/* header */
+
 .brand-header {
 	width: 1850px;
 	height: 109px;
 	border-bottom: 3px solid black;
 }
 
-.brand {
+h1.brand {
+	display: block;
 	font-family: "Snell Roundhand";
 	font-weight: normal;
 	font-size: 60px;
 	text-align: center;
-}
-
-h1.brand {
-	display: block;
 	margin: 40px 0px;
 }
+
+/* top content */
 
 .row {
 	display: flex;
@@ -121,6 +122,8 @@ p.article-text {
 .article-img {
 	width: 100%;
 }
+
+/* bottom content */
 
 .other-sections {
 	display: flex;
